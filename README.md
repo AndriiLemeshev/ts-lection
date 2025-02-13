@@ -2,16 +2,6 @@
 
 This repository contains examples, exercises, and unit tests designed to accompany an introductory course on TypeScript for JavaScript developers. It provides hands-on practice to solidify your understanding of TypeScript concepts.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Examples](#examples)
-- [Exercises](#exercises)
-- [Unit Tests](#unit-tests)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This project is a practical supplement to the "TypeScript for JavaScript Developers" course.  It's designed to help you bridge the gap between JavaScript and TypeScript by providing concrete examples and challenging exercises. Each example focuses on a specific TypeScript feature, and the exercises allow you to apply what you've learned.  Unit tests are included to help you verify the correctness of your solutions.
@@ -21,8 +11,8 @@ This project is a practical supplement to the "TypeScript for JavaScript Develop
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/typescript-examples.git](https://www.google.com/search?q=https://github.com/your-username/typescript-examples.git)  # Replace with your repo URL
-    cd typescript-examples
+    git clone [https://github.com/AndriiLemeshev/ts-lection.git](https://github.com/AndriiLemeshev/ts-lection.git)
+    cd ts-lection
     ```
 
 2.  **Install dependencies:**
