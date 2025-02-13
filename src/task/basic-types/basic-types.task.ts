@@ -1,4 +1,6 @@
 /**
+ * TODO: Uncomment function, add types and implement it according to jsdoc.
+ *
  * Creates a tuple containing a number, a string, and a boolean.
  *
  * @param a - The number.
@@ -12,6 +14,6 @@
  * console.log(myTuple); // Output: [10, "hello", true]
  * ```
  */
-export default function makeTuple(a: number, b: string, c: boolean): [number, string, boolean] {
-    return [a, b, c];
-}
+// export default function makeTuple(a, b, c) {
+//
+// }

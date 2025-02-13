@@ -1,4 +1,6 @@
 /**
+ * TODO: Uncomment enum and implement it according to jsdoc, then uncomment optionalBooleanToEnum function.
+ *
  * Represents the possible answers to a yes/no/maybe question.
  *
  * @enum {string}
@@ -6,11 +8,8 @@
  * @property {string} NO - Represents the negative answer "No".
  * @property {string} MAYBE - Represents the uncertain answer "Maybe".
  */
-export enum YesNoMaybe {
-    YES = 'Yes',
-    NO = 'No',
-    MAYBE = 'Maybe'
-}
+// export enum YesNoMaybe {
+// }
 
 /**
  * Converts an optional boolean value to a YesNoMaybe enum.
@@ -26,12 +25,12 @@ export enum YesNoMaybe {
  * optionalBooleanToEnum(); // Returns YesNoMaybe.MAYBE
  * ```
  */
-export function optionalBooleanToEnum(x?: boolean): YesNoMaybe {
-    if (x === true) {
-        return YesNoMaybe.YES;
-    }
-    if (x === false) {
-        return YesNoMaybe.NO;
-    }
-    return YesNoMaybe.MAYBE;
-}
+// export function optionalBooleanToEnum(x?: boolean): YesNoMaybe {
+//     if (x === true) {
+//         return YesNoMaybe.YES;
+//     }
+//     if (x === false) {
+//         return YesNoMaybe.NO;
+//     }
+//     return YesNoMaybe.MAYBE;
+// }

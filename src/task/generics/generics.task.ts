@@ -19,6 +19,8 @@ export interface Pigeon extends Bird {
 }
 
 /**
+ * TODO: Uncomment function, add types and implement it according to jsdoc.
+ * 
  * Extracts a specific property from a bird object based on its type.
  *
  * @function birdKeyPropertyExtractor
@@ -33,12 +35,12 @@ export interface Pigeon extends Bird {
  * console.log(birdKeyPropertyExtractor(crow)); // Output: "Wisdom of crow: 10"
  * console.log(birdKeyPropertyExtractor(pigeon)); // Output: "Carelessnes of pigeon: 5"
  */
-export function birdKeyPropertyExtractor<T extends Bird>(bird: T): string {
-    if (bird.type === 'crow') {
-        return `Wisdom of crow: ${(bird as unknown as Crow).wisdom}`;
-    }
-    if (bird.type === 'pigeon') {
-        return `Carelessnes of pigeon: ${(bird as unknown as Pigeon).carelessnes}`;
-    }
-    return 'Unknown bird';
-}
+// export function birdKeyPropertyExtractor(bird): string {
+//     if (bird.type === 'crow') {
+//         return `Wisdom of crow: ${(bird as unknown as Crow).wisdom}`;
+//     }
+//     if (bird.type === 'pigeon') {
+//         return `Carelessnes of pigeon: ${(bird as unknown as Pigeon).carelessnes}`;
+//     }
+//     return 'Unknown bird';
+// }

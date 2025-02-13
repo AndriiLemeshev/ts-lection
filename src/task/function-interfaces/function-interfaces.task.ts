@@ -17,6 +17,5 @@ export interface PhonePropertyExtractor {
     (object: { phone: string }): string;
 }
 
-export const extractPhone: PhonePropertyExtractor = (object: { phone: string }): string => {
-    return object.phone;
-};
+// TODO: Uncomment function, add types and implement it according to jsdoc.
+// export const extractPhone: PhonePropertyExtractor = (object) => {};

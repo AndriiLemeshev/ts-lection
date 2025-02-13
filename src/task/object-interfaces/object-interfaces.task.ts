@@ -29,6 +29,8 @@ interface Plane extends Vehicle {
 }
 
 /**
+ * TODO: uncomment function and add type.
+ * 
  * Converts a Vehicle object to its JSON string representation.
  * @function vehicleToJSON
  * @param {Vehicle} vehicle - The Vehicle object to convert.
@@ -38,6 +40,6 @@ interface Plane extends Vehicle {
  * const jsonString = vehicleToJSON(myCar);
  * console.log(jsonString); // Output: {"numberOfWheels":4}
  */
-export function vehicleToJSON(vehicle: Vehicle): string {
-    return JSON.stringify(vehicle);
-}
+// export function vehicleToJSON(vehicle): string {
+//     return JSON.stringify(vehicle);
+// }
